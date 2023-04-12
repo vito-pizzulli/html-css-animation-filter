@@ -157,3 +157,17 @@
     border-radius: 1rem;
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: rotate 1s linear infinite reverse;
+}
+
+@keyframes rotate {
+	0% {
+	transform: rotate(0);
+	}
+	100% {
+	transform: rotate(360deg);
+	}
+}
