@@ -160,14 +160,31 @@
 
 /* Esercizio 10 */
 .ex-10-icon {
-    animation: rotate 1s linear infinite reverse;
+    animation: rotate-reverse linear 1s infinite reverse;
 }
 
-@keyframes rotate {
+@keyframes rotate-reverse {
 	0% {
 	transform: rotate(0);
 	}
 	100% {
 	transform: rotate(360deg);
 	}
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: rotate linear 2s;
+}
+
+@keyframes rotate {
+	0% {
+	transform: rotate(0);
+	}
+	90% {
+	transform: rotate(270deg);
+	}
+    100% {
+    transform: rotate(0);
+    }
 }
